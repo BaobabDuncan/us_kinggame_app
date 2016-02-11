@@ -1,0 +1,126 @@
+.user-item {	
+	width: 100%;  
+}
+.user-item .action {
+	opacity: 0;
+}
+
+.user-item .delete {
+    float: right;
+    color: #fff;
+    font-size: 0.7em;
+    padding: 5px 8px;
+    border-color: #555;
+    background-color: red;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4d4d), color-stop(50%, #ff1a1a), color-stop(51%, #ff0000), color-stop(100%, #e60000));
+	background-image: linear-gradient(#ff4d4d,#ff1a1a 50%,#ff0000 51%,#e60000);
+}
+
+.penalty-item .delete {
+    float: right;
+    color: #fff;
+    font-size: 0.7em;
+    padding: 5px 8px;
+    border-color: #555;
+    background-color: red;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4d4d), color-stop(50%, #ff1a1a), color-stop(51%, #ff0000), color-stop(100%, #e60000));
+	background-image: linear-gradient(#ff4d4d,#ff1a1a 50%,#ff0000 51%,#e60000);
+}
+
+
+.user-item-active .user-item .action {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s linear;
+}
+
+
+
+.penalty-item {	
+	width: 100%;  
+}
+.penalty-item .action {
+	opacity: 0;
+}
+
+.penalty-item .add {
+    float: right;
+    color: #fff;
+    font-size: 0.7em;
+    padding: 5px 8px;
+    border-color: #555;
+    background-color: blue;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4d4d), color-stop(50%, #ff1a1a), color-stop(51%, #ff0000), color-stop(100%, #e60000));
+	background-image: linear-gradient(#ff4d4d,#ff1a1a 50%,#ff0000 51%,#e60000);
+}
+
+
+.penalty-item-active .penalty-item .action {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s linear;
+}
+
+
+#sexImg{		
+	margin-bottom: -5px;
+	margin-right : 10px;
+	height : 25px;
+}
+
+span.download-count{
+	color : blue;
+	font-size : .6em !important;
+}
+
+div #box-div{  
+  	margin-top : 20px;
+}
+div .box{
+	font-size: 25px;
+  background: #D9D9D9; 
+  margin:10px;
+  padding: 20px;
+  -webkit-border-radius: .5em;    
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);    
+  text-align:center;
+}
+#box1 {  
+  background: #1f9a6d; 
+}
+#box2 {
+  background: #e52ed2; 
+}
+#box3 {
+  background: #13d1e7; 
+}
+
+div #button_div{
+	margin-top : 20px;
+	margin-left : 10px;
+	margin-right : 10px;
+	
+	padding : 5px;
+}
+
+div #retryBtn{
+	padding : 10px;
+}
+
+div#uksmart_info{
+	text-align : center;
+}
+div#uksmart_info p {
+	
+	font-size:0.8em;
+	padding-bottom : 5px;
+}
+
+div#uksmart_info a {
+	
+	font-weight: bold;
+	color: blue;
+	text-decoration: none;
+	font-size:0.95em;
+}
+
+
+
